@@ -99,6 +99,7 @@
 
 ;; character-code
 (when IS-WINDOWS
+  (set-language-environment "Japanese")
   (set-coding-system-priority 'utf-8
                               'euc-jp
                               'iso-2022-jp
