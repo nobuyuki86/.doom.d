@@ -252,7 +252,9 @@
 (use-package base16-theme
   :init
   (setq base16-sakura-theme-colors
-        '(:base00 "#FEEEED" ;; 桜色
+        '(;; :base00 "#FCF5F7" ;; 薄桜色 (252 245 247)
+          :base00 "#FEEEED" ;; 桜色 (254 238 237)
+          ;; :base00 "#FDF2F2" ;; 薄桜と桜の中間
           :base01 "#E8D3D1" ;; 灰桜色
           :base02 "#D8C6BC" ;; 桜鼠
           :base03 "#9fa0a0" ;; 薄墨色
